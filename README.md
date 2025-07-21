@@ -10,8 +10,9 @@ To run these LEX programs:
 1. Make sure you have `lex` and `gcc` installed:
    ```bash
    sudo apt-get install flex gcc
-
-
-   lex filename.l
+   
+Compile and run a program:
+   ```bash
+lex filename.l
 gcc lex.yy.c -o output
 ./output
